@@ -1,0 +1,62 @@
+.benefits{
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    background-color: #364200;
+    z-index: -2;
+}
+
+.wave3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 40%;
+    z-index: -1;
+}
+
+.benefits_h1{
+    font-size: 4rem;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.benefits_list{
+    font-size: 2rem;
+    padding: 1rem 0 0 0;
+}
+
+.user_benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_info{ 
+    color: #A8A8A8;
+}
+
+@media (max-width:700px){
+    .benefits_h1{
+        font-size: 2rem;
+        padding: 2rem 0;
+        font-weight: 600;
+        text-align: center;
+    }
+    .benefits_list{
+        font-size: 2rem;
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+    .item_info{
+        text-align: center;
+        padding: 1rem 0;
+    }
+}

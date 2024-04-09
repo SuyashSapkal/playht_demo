@@ -1,0 +1,68 @@
+.card{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10em 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #364200;
+}
+
+.wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 30%;
+    z-index: -2;
+}
+
+.h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.inputText{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+    padding: 1rem 0 0.7rem 0;
+}
+
+.inputbox{
+    width: 100%;
+    border:none;
+    text-align: center;
+    /* max-width: 400px; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    font-style: normal;
+    padding: 0.75em 4em;
+    border-radius: .5em;
+    opacity: 70%;
+}
+/* 
+@media (min-width: 600px){
+    .inputbox{
+        max-width: 100%;
+    }
+} */
+
+#submit_button{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#submit_button:hover{
+    background-color: #323232;
+    border: 2px solid #A8A8A8;
+}

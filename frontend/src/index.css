@@ -1,0 +1,27 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+*{
+  box-sizing: border-box;
+  margin:0 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+
+.bttn {
+  padding: 0.5em 1em;
+  margin: 0.5rem 0.1rem;
+  outline: none;
+  border: none;
+  border-radius: 2em;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bttn:focus {
+  outline: none;
+}

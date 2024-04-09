@@ -1,0 +1,14 @@
+.footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+}
+
+.web_link{
+    cursor: pointer;
+    text-decoration: underline;
+}
