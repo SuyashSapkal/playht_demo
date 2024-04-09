@@ -1,5 +1,5 @@
 .herocontent {
-    background-color: #364200;
+    background-color: #001028;
     height: 85vh;
     position: relative;
     width: 100%;
@@ -18,7 +18,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    opacity: 40%;
+    opacity: 20%;
     z-index: -1;
 }
 
