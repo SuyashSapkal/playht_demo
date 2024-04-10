@@ -19,15 +19,23 @@
 }
 
 .featureText{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.studio_img{
+    max-width: 100%;
+    border-radius: .5rem;
 }
 
 .h1{
     font-size: 4rem;
     padding: 4rem 0;
     font-weight: 600;
+    text-align: center;
 }
 
 .list{
@@ -46,5 +54,12 @@
         font-size: 2rem;
         padding: 1rem 0;
         text-align: center;
+    }
+
+    .featureText{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 0 2rem;
     }
 }
