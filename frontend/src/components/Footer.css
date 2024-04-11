@@ -1,14 +1,27 @@
 .footer{
     background-color: #000000;
     color: #FFFFFF;
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-    text-align: center;
+    min-height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.item{
+    padding: 0 4rem;
 }
 
 .web_link{
     cursor: pointer;
     text-decoration: underline;
+}
+
+@media (max-width: 700px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        text-align: center;
+        padding: 1em 0;
+    }
 }
